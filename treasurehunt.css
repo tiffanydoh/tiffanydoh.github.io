@@ -1,0 +1,53 @@
+/* Name: recipe.css */
+/* Target a tag in HTML: 1) using the name of a tag, 2) use an id and reference the id with a # in CSS, 3) use a class reference the class with . in CSS */
+/* key:value pairs */
+/* property from CSS and a value */
+/* Responsive design - making an app look good on different sized screens */
+
+body {
+  /* background-color: #dcecfa; */
+  background-image: url(https://t3.ftcdn.net/jpg/03/54/90/84/360_F_354908454_7CftzSVA4ZldS4UrTsBzWLDLRSTyYZWW.jpg);
+  background-position: center;
+  background-size: cover;
+  color: black;
+  background-attachment: fixed;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+/*color: #032645;*/
+}
+
+table {
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+td {
+  border: 2px solid black;
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+td:hover {
+  color:gold;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🏴‍☠️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#chest-pic {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.list-group {
+  font-family: cursive;
+}
+
+.restart-button {
+  text-align: center;
+  margin-top: 40px;
+
+}
